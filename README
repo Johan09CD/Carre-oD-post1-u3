@@ -1,0 +1,28 @@
+# Laboratorio: Página de Perfil con CSS3
+
+** Estudiante:** Johan Steven Carreño Daza
+** Materia:** Programación Web - UDES
+
+---
+
+## Descripción
+
+Este proyecto consiste en el desarrollo de una página de perfil profesional utilizando:
+
+- HTML5 semántico
+- CSS3 avanzado
+
+Se aplican conceptos como:
+
+- Box Model
+- Posicionamiento (relative, absolute, fixed)
+- Metodología BEM para organización de estilos
+
+---
+
+## Instrucciones de Ejecución
+1. Clonar el repositorio.
+2. Abrir `index.html` utilizando la extensión **Live Server** en VS Code.
+
+## Resultado Final
+![Captura de pantalla](img/resultado.png)

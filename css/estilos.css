@@ -117,3 +117,38 @@ main {
     color: #065A82;
     border: 2px solid #065A82;
 }
+
+/* PASO 7: FORMULARIO ACCESIBLE */
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(6, 90, 130, 0.2); /* Ring de accesibilidad */
+}
+
+.btn-primary {
+    cursor: pointer;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+    background: var(--color-secondary);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+
+/* PASO 8: FOOTER */
+
+.site-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--color-dark);
+    color: var(--color-white);
+}
